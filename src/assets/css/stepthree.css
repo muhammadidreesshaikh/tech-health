@@ -1,0 +1,56 @@
+.stepthree .card-body h6{
+    font-size: 19px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.stepthree .card-body p{
+    font-size: 15px;
+    padding: 0;
+    color: var(--color-black);
+}
+
+.stepthree .card-body .change{
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 5%;
+}
+
+.stepthree .card-body input{
+    border-radius: 5px;
+    padding: 8px 0 8px 10px;
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    color: var(--color-black);
+}
+
+.stepthree input::placeholder
+{
+    color: var(--color-gry);
+}
+
+
+
+
+/* menu desktop and mobile switching on responsive  */
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .stepthree .card-body h6{
+        font-size: 22px;
+    }
+
+    .stepthree .card-body p {
+        font-size: 17px;
+    }
+
+    .stepthree .card-body .change {
+        font-size: 15px;
+    }
+}

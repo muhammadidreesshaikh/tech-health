@@ -1,0 +1,133 @@
+.signup{
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: #101010;
+    background-blend-mode: soft-light;
+    width: 100%;
+    height: 100vh;
+}
+
+.signup .logo{
+    padding: 15% 0 0 0;
+}
+
+.signup .logo img{
+    width: 50%;
+    height: auto;
+}
+
+.signup .inner{
+    padding: 15% 18% 0 0;
+}
+
+.signup .logo .inner h3{
+    font-size: 35px;
+    color: var(--color-white);
+    font-weight: 600;
+}
+
+.signup .logo .inner .seprator{
+    width: 12%;
+    height: 5px;
+    background-color: #005c97;
+    border-radius: 5px;
+    margin-top: 3%;
+}
+
+.signup .logo .inner p{
+    color: var(--color-white);
+    font-size: 16px;
+}
+
+.signup .card-body{
+    background-color: var(--color-white);
+    border-radius: 7px;
+    position: relative;
+    top: 6%;
+    padding: 10% 5%;
+}
+
+.signup .card-body h2
+{   font-weight: bold;
+    font-size: 35px;
+}
+
+.signup .card-body h5
+{
+    font-size: 12px;
+    display: block;
+    font-weight: bold;
+    margin: auto !important;
+}
+
+.signup .card-body h5:before
+{
+    content: "";
+    position: absolute;
+    top: 33%;
+    left: 8%;
+    width: 39%;
+    height: 1px;
+    background-color: var(--color-gry);
+}
+
+.signup .card-body h5:after
+{
+    content: "";
+    position: absolute;
+    top: 33%;
+    right: 8%;
+    width: 39%;
+    height: 1px;
+    background-color: var(--color-gry);
+}
+
+.signup .card-body h6
+{
+    font-size: 13px;
+    font-weight: bold;
+    color: #a7a6a6;  
+}
+
+.signup .card-body p
+{
+    font-size: 11px;
+    font-weight: bold;
+    color: #4e4e4ecf;
+    padding: 0 10%;
+}
+
+.signup .card-body .change{
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.signup .card-body input{
+    font-size: 14px;
+}
+
+
+/* menu desktop and mobile switching on responsive  */
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

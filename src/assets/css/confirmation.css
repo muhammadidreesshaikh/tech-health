@@ -1,0 +1,52 @@
+.confirmation .card-body h3{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.confirmation .card-body .main-last{
+    margin-top: 10%;
+}
+
+.confirmation .card-body h6{
+    font-size: 15px;
+}
+
+.confirmation .download span{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.confirmation .download a img{
+    width: 48%;
+    height: auto;
+    object-fit: cover;
+}
+
+.confirmation .card-body .mobile img{
+    width: 100%;
+    height: auto;
+}
+
+.confirmation .icons{
+    margin: 5% 0;
+}
+
+.confirmation .icons .icons-inner{
+    margin-top: 8%;
+}
+
+.confirmation .icons .icons-inner i{
+    font-size: 30px;
+}
+
+.confirmation .icons .icons-inner h6{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.confirmation .icons .icons-inner span{
+    font-size: 12px;
+    color: gray;
+}
+

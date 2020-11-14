@@ -1,0 +1,84 @@
+.billing .card-body h6{
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.billing .card-body .list{
+    margin-top: 10%;
+}
+
+.billing .card-body .list img{
+    width: 100%;
+    height: auto;
+}
+
+.text-success {
+    color: #28a745!important;
+    font-weight: bold;
+    font-size: 15px;
+    padding-right: 2px;
+}
+
+.billing ul{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.billing li{
+    font-size: 15px;
+    padding-top: 5px;
+    color: var(--color-black);
+}
+
+.billing .card-body input{
+    font-size: 14px;
+    color: var(--color-black);
+}
+
+.billing .form-group{
+    position: relative;
+}
+
+
+.billing .form-group img{
+    width: 15%;
+    position: absolute;
+    top: 39px;
+}
+
+.billing .card-body i{
+    font-size: 18px;
+    color: var(--color-green);
+} 
+
+.billing .card-body .change{
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 5%;
+}
+
+.custom-tooltip {
+    position: relative;
+}
+
+.custom-tooltip .tooltip-text{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 25px;
+    width: 200px;
+    background: var(--color-green);
+    color: var(--color-white);
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
+    display: none;
+}
+
+.custom-tooltip i:hover + .tooltip-text {
+    display: block;
+}

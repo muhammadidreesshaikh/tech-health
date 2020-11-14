@@ -1,0 +1,39 @@
+.elligibility{
+    padding: 5% 0;
+}
+
+.elligibility .card-body h1{
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.elligibility .card-body h3{
+    font-size: 21px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.elligibility .card-body h6{
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+
+
+/* menu desktop and mobile switching on responsive  */
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+    .elligibility .card-body h1{
+        font-size: 25px;
+    }
+
+    .elligibility .card-body h6{
+        font-size: 16px;
+        padding-top: 20px;
+    }
+}

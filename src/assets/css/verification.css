@@ -1,0 +1,29 @@
+.verification h3{
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.verification h5{
+    font-size: 15px;
+}
+
+.verification .check-boxs{
+    background-color: var(--color-help);
+    padding: 40px 20px;
+    border-radius: 5px;
+}
+
+.verification .check-boxs h5{
+    font-size: 13px;
+}
+
+.verification .form-check{
+    margin: 15px 0px 0 20px;
+}
+
+.verification span{
+    padding: 4% 3%;
+    font-size: 12px;
+    display: block;
+    margin: auto;
+}

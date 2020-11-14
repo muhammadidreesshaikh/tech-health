@@ -1,0 +1,154 @@
+.coverage h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.coverage h3{
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.coverage .card-body h6{
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.coverage .card-body input[type=text]{
+    border-radius: 5px;
+    padding: 8px 0 8px 10px;
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    color: var(--color-black);
+}
+
+.coverage input::placeholder
+{
+    color: var(--color-gry);
+}
+
+.coverage .card-body i{
+    font-size: 18px;
+    color: var(--color-green);
+} 
+
+.coverage .card-body .change{
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 5%;
+}
+
+/* checkbox click then show */
+.coverage .change{
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 4%;
+}
+
+.coverage .change input[type=text]{
+    border-radius: 5px;
+    padding: 8px 0 8px 10px;
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    color: var(--color-black);
+}
+
+.custom-tooltip {
+    position: relative;
+}
+
+.custom-tooltip .tooltip-text{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 25px;
+    width: 180px;
+    background: var(--color-green);
+    color: var(--color-white);
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
+    display: none;
+}
+
+.custom-tooltip i:hover + .tooltip-text {
+    display: block;
+}
+
+.checks {
+    position: absolute;
+    top: 40%;
+    left: -100%;
+    width: 300px;
+}
+
+.checks .raw{
+    background-color: var(--color-help);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.checks .inner span{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.text-success {
+    color: #28a745!important;
+    font-weight: bold;
+    font-size: 15px;
+    padding-right: 2px;
+}
+
+.checks .raw h4{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.checks .raw ul{
+    list-style: none;
+    padding: 10px 0 0 0;
+}
+
+.checks .raw li{
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+
+/* menu desktop and mobile switching on responsive  */
+
+@media only screen and (max-width: 768px) {
+      
+    .coverage h1{
+        font-size: 30px;
+    }
+
+    .coverage h3 {
+        font-size: 15px;
+    }
+
+    .coverage .card-body h6 {
+        font-size: 24px;
+    }
+
+    .coverage .card-body .change {
+        font-size: 16px;
+    }
+
+    .checks {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+  
+}

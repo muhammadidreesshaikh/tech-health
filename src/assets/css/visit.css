@@ -1,0 +1,38 @@
+.visit .card-body h6{
+    font-size: 18px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.visit .card-body p{
+    font-size: 15px;
+    padding: 0;
+    color: var(--color-black);
+    padding-top: 10px;
+}
+
+.visit strong{
+    padding-left: 9%;
+}
+
+.visit .card{
+    padding: 10px 0;
+}
+
+.visit img{
+    width: 45%;
+    height: 40px;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-left: 15%;
+}
+
+.visit .card p{
+    font-size: 14px;
+    color: var(--color-gry);
+    padding-top: 8px;
+}
+
+.card.border-selected {
+    border: 2px solid var(--color-green);
+}

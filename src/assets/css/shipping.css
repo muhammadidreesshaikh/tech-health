@@ -1,0 +1,44 @@
+.shipping .card-body h6{
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.shipping .card-body .list{
+    margin-top: 10%;
+}
+
+.shipping .card-body .list img{
+    width: 100%;
+    height: auto;
+}
+
+.text-success {
+    color: #28a745!important;
+    font-weight: bold;
+    font-size: 15px;
+    padding-right: 2px;
+}
+
+.shipping ul{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.shipping li{
+    font-size: 15px;
+    padding-top: 5px;
+    color: var(--color-black);
+}
+
+.shipping .card-body .change{
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.shipping .card-body input{
+    font-size: 14px;
+    color: var(--color-black);
+}

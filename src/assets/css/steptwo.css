@@ -1,0 +1,99 @@
+.steptwo .card-body h6{
+    font-size: 21px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.steptwo .card-body h5{
+    font-size: 15px;
+}
+ 
+.steptwo .card-body i{
+    font-size: 18px;
+    color: var(--color-green);
+} 
+
+.steptwo .card-body .change{
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 5%;
+}
+
+.custom-tooltip {
+    position: relative;
+}
+
+.custom-tooltip .tooltip-text{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 25px;
+    width: 200px;
+    background: var(--color-green);
+    color: var(--color-white);
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
+    display: none;
+}
+
+.custom-tooltip i:hover + .tooltip-text {
+    display: block;
+}
+
+.steptwo .card-body ul{
+    list-style: none;
+    padding: 10px 0 0 0;
+    margin-bottom: 0;
+}
+
+.steptwo .card-body li{
+    font-size: 15px;
+    padding-top: 5px;
+    color: var(--color-black);
+}
+
+.steptwo .card-body .custom-toggle ul {
+    display: flex;
+    background-color: var(--color-help);
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    border: 2px solid var(--color-help);
+}
+
+.steptwo .card-body .custom-toggle ul li{
+    padding: 10px;
+    color: var(--color-white);
+    font-weight: 600;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.steptwo .card-body .custom-toggle ul li.active {
+    background-color: var(--color-white);
+    color: var(--color-green);
+    border-radius: 3px;
+}
+
+
+
+/* menu desktop and mobile switching on responsive  */
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .steptwo .card-body h6{
+        font-size: 19px;
+    }
+
+    .steptwo .card-body .change{
+        font-size: 15px;
+    }
+}
